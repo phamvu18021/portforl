@@ -1,0 +1,182 @@
+.logoimg {
+    width: 2rem;
+    height: auto;
+}
+
+
+
+
+
+
+
+.nav-link {
+    text-decoration: none !important;
+}
+
+.header {
+    width: 100%;
+    // height: 50px;
+    position: absolute;
+    z-index: 99;
+}
+
+.logoimg {
+    text-align: center;
+}
+
+
+// .logo h5{
+//     font-weight: 600;
+//     font-size: 1rem;
+//     color:  #e1e1ee;
+//     // margin-top: -40px;
+//     margin-bottom: 0;
+//  }
+//  .menu{
+//     display: flex;
+//     justify-content: space-between;
+//  }
+.web_name {
+    margin-left: 4rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 15px -5px #fde4e4;
+}
+
+.menu div {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #040611;
+    transition: 0.3s;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.menu a:hover {
+    color: #df2020;
+}
+
+.bar_right {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 4rem;
+}
+
+.active__menu {
+    color: #df2020 !important;
+}
+
+.mobile__menu i {
+    font-size: 1.3rem;
+    color: #01011b;
+    cursor: pointer;
+}
+
+
+
+.mobile__menu {
+    font-weight: 600;
+    display: none;
+}
+
+.header__shrink {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 99999;
+    box-shadow: 5px 5px 15px -5px #fde4e4;
+}
+
+@media only screen and (max-width:992px) {
+
+    .logo img {
+        width: calc(100% - 70%);
+    }
+
+    .logo h5 {
+        font-size: 0.8rem;
+        margin-top: -15px;
+
+    }
+
+    .navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.534);
+        z-index: 99;
+        display: none;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: #212245;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+        line-height: 20px;
+        display: block;
+    }
+
+    .bar_right {
+        display: block !important;
+        margin-top: 3rem;
+    }
+.web_name h3{
+    text-align: center;
+    display: none;
+}
+    .menu a {
+        font-size: 01.5rem;
+        display: block;
+        margin-top: 3rem;
+        text-align: center;
+        color: #e8e8f3;
+    }
+
+    .mobile__menu {
+        font-size: 1rem;
+        display: block;
+        color: black;
+    }
+
+    .show__menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width :768px) {
+    .header {
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .logo img {
+        margin-top: -70px !important;
+    }
+
+    .logo h5 {
+        margin-top: -55px;
+
+    }
+}
