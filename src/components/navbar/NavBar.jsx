@@ -1,11 +1,13 @@
 
 import { Navbar, Nav, Container } from "react-bootstrap";
+import { Route } from "react-router-dom";
+import { Routes } from "react-router-dom";
 import logo from '../../assets/img/logo.svg';
 import './navbar.scss'
 // import navIcon1 from '../assets/img/nav-icon1.svg';
 // import navIcon2 from '../assets/img/nav-icon2.svg';
 // import navIcon3 from '../assets/img/nav-icon3.svg';
-
+import { Navigate } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 
 import React, { useRef, useEffect, useState } from 'react'
@@ -58,6 +60,11 @@ const NavBar = () => {
     return (
 
         <Router>
+            <Routes>
+                <Route path='/' element={<Navigate to='/#home' />} />
+
+            </Routes>
+
             <header className='header' ref={headerRef}>
                 <Container>
                     <div className="nav__wrapper d-flex align-items-center

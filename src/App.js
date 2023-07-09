@@ -6,11 +6,13 @@ import Banner from './components/banner/Banner';
 import Footer from './components/footer/Footer';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
+import Routers from './components/routes/Routers';
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Banner />
+      {/* <Routers /> */}
       <About />
       <Projects />
       <Contact />
