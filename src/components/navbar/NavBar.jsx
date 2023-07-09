@@ -7,6 +7,7 @@ import './navbar.scss'
 // import navIcon1 from '../assets/img/nav-icon1.svg';
 // import navIcon2 from '../assets/img/nav-icon2.svg';
 // import navIcon3 from '../assets/img/nav-icon3.svg';
+import App from "../../App";
 import { Navigate } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -59,11 +60,13 @@ const NavBar = () => {
 
     return (
 
-        <Router>
-            <Routes>
-                <Route path='/' element={<Navigate to='/#home' />} />
+        // <Router>
+            // <Routes>
+              
+            //     {/* <Route path='/portforl' element={<Navigate to='/#home' />} /> */}
+            //     <Route path='/' element={<Navigate to='/#home' />} />
 
-            </Routes>
+            // </Routes>
 
             <header className='header' ref={headerRef}>
                 <Container>
@@ -113,7 +116,7 @@ const NavBar = () => {
                     </div>
                 </Container>
             </header>
-        </Router>
+        // </Router>
 
     );
 

@@ -10,13 +10,13 @@ import Routers from './components/routes/Routers';
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      {/* <NavBar /> */}
       <Banner />
-      {/* <Routers /> */}
+      
       <About />
       <Projects />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
