@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfo/static/css/main.9b83f53d.css",
+    "main.js": "/portfo/static/js/main.84f13c58.js",
+    "static/js/787.7e6a8f84.chunk.js": "/portfo/static/js/787.7e6a8f84.chunk.js",
+    "static/media/emcshop.png": "/portfo/static/media/emcshop.c316087add0c85208c85.png",
+    "static/media/imgmain.png": "/portfo/static/media/imgmain.a23856b150600fbe82ab.png",
+    "static/media/remixicon.svg?t=1687271883607": "/portfo/static/media/remixicon.636515c9a8963df4380d.svg",
+    "static/media/remixicon.eot?t=1687271883607": "/portfo/static/media/remixicon.83e9a22ce7f199999169.eot",
+    "static/media/remixicon.ttf?t=1687271883607": "/portfo/static/media/remixicon.0bcb16fc20c3d365da14.ttf",
+    "static/media/remixicon.woff?t=1687271883607": "/portfo/static/media/remixicon.3f0f84f17d39491e07ff.woff",
+    "static/media/remixicon.woff2?t=1687271883607": "/portfo/static/media/remixicon.85992a032c7668836563.woff2",
+    "static/media/imgmain.jpg": "/portfo/static/media/imgmain.6497971cd1b059532db1.jpg",
+    "static/media/about.jpg": "/portfo/static/media/about.62b47e7f183d4b4e9feb.jpg",
+    "static/media/react.svg": "/portfo/static/media/react.afac9c43724070bf6674f2692b7356a9.svg",
+    "static/media/logo.svg": "/portfo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/scss.svg": "/portfo/static/media/scss.67cd0525916c4cdea4eb3abd8ae11137.svg",
+    "static/media/javascript.svg": "/portfo/static/media/javascript.de4c2594613e34b15666206bbede7327.svg",
+    "static/media/css3.svg": "/portfo/static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg",
+    "index.html": "/portfo/index.html",
+    "static/media/html.svg": "/portfo/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg",
+    "main.9b83f53d.css.map": "/portfo/static/css/main.9b83f53d.css.map",
+    "main.84f13c58.js.map": "/portfo/static/js/main.84f13c58.js.map",
+    "787.7e6a8f84.chunk.js.map": "/portfo/static/js/787.7e6a8f84.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b83f53d.css",
+    "static/js/main.84f13c58.js"
+  ]
+}
